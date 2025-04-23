@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.subPage button a{
+    text-decoration:"none"; 
+    background-color:"white"; 
+    color:"black"; 
+}
+.subPage a{
+    text-decoration:"none"; 
+    font-size: 20px;
+    color:white;
+}
+.subPage{
+    margin: 10px;
+    padding-bottom: 10px;
+    row-gap: 20px;
+}
+body{
+    background-image: url("background.jpg");
+    height: 100%;
+    width: 100%;
+}
+.myHeader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: #064678e2;
+}
+
+.myHeader h2{
+    color:white;
+}
+.myHeader h2:hover{
+    -webkit-animation:h2 .08s ease-in-out infinite alternate;
+    animation:  h2 .08s ease-in-out infinite alternate;
+    
+}
+
+@keyframes h2{
+    from{
+        text-shadow:0 0 6px rgba(202,228,225,0.92),
+                    0 0 30px rgba(202,228,225,0.34),
+                    0 0 12px rgba(30,132,242,0.52),
+                    0 0 21px rgba(30,132,242,0.92),
+                    0 0 34px rgba(30,132,242,0.78),
+                    0 0 54px rgba(30,132,242,0.92);
+    }
+    to{
+        text-shadow:0 0 6px rgba(202,228,225,0.92),
+                    0 0 30px rgba(202,228,225,0.42),
+                    0 0 12px rgba(30,132,242,0.58),
+                    0 0 22px rgba(30,132,242,0.58),
+                    0 0 38px rgba(30,132,242,0.84),
+                    0 0 60px rgba(30,132,242,0.88);
+    }
+}
+.self{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: right;
+    align-items: right;
+    color: white;
+    padding: 0px 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+.self li{
+    text-align: center;
+    padding: 0px 10px;
+    transition: all ease;
+}
+.self a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.self li:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    
+}
+.box1{
+    margin: 20px;
+    padding-top: 50px;
+}
+.box2 h3{
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.box2 h4{
+    margin: 40px;
+    text-align: center;
+    color: rgba(231, 231, 231, 0.5);
+    font-size: 50px;
+}
+button{
+    background: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: rgba(224, 218, 218, 0.678) 0px 5px 15px;
+
+}
+.box3 h3{
+    color: white;
+    margin: 10px;
+    font-size: 35px;
+    width: 200px;
+}
+.box3 p{
+    color: rgb(173, 234, 255);
+    font-size: 25px;
+    padding: 20px;
+    margin: 25px;
+    text-align: justify;
+}
+.box3 h3:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+
+}
+.box4 h3{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 35px;
+    width: 200px;
+}
+.box4 h3:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+
+}
+.box4 li{
+    color: rgb(173, 234, 255);
+    font-size: 25px;
+    padding-left: 10px;
+    margin: 25px;
+    text-align: justify;
+    gap: 5px;
+    font-style: italic;
+} 
+.box5 h3{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 35px;
+    width: 300px;
+}
+.box5 h3:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+}
+.box5 li{
+    color: rgb(173, 234, 255);
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 20px;
+    margin: 25px;
+    gap: 5px;
+    text-align: justify;
+}
+.box6 h3{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 35px;
+    width: 200px;
+}
+.box6 h3:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+}
+.box6 p{
+    color: rgb(173, 234, 255);
+    font-size: 25px;
+    padding: 20px;
+    margin: 25px;
+    text-align: justify;
+}
+.box7 h3{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 35px;
+}
+.box7 h3:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+}
+.port h4, p{
+    color: rgb(173, 234, 255);
+    font-size: 25px;
+    padding: 20px;
+    margin: 25px;
+    text-align: justify;
+    cursor: pointer;
+}
+.pro a{
+    text-decoration: none;
+    color: cyan;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 44px;
+    font-size: 22px;
+    
+}
+.pro a i{
+    height: 20px;
+    font-size: 30px;
+    color: white;
+}
