@@ -1,0 +1,78 @@
+body{
+    align-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(7, 255, 185);
+}
+.header{
+    color:white;
+}
+.wrapper{
+    text-align: center;
+color: rgb(0, 0, 0);
+height: 500px;
+width: 600px;
+border: 5px solid white ;
+justify-content: center;
+font-family: bell 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-left: 100px;
+font-size: large;
+
+}
+.input-box{
+    align-content: center;
+    height: 50px;
+    
+    
+}
+.input-box text{
+    size:100px;
+}
+.input-box input{
+    height: 70%;
+    width: 50%;
+    border-radius: 30px;
+}
+.input-box input:hover{
+    width: 55%;
+    height: 75%;
+    transition: all 0.5s;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+#heading{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.btn{
+    size: 20px;
+}
+.about_us{
+    background-color: white;
+    width: 60px;
+    padding: 0px 10px;
+    line-height: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+    color:black;
+    display: flex;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.about_us li{
+    font-size: 18px;
+    display: inline-block;
+    padding:0px 10px;
+    margin: 0 auto;
+}
+.about_us li a{
+    text-decoration: none;
+    
+}
+.about_us:hover{
+    width: 250px;
+}
